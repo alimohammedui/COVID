@@ -14,8 +14,6 @@ export const AppContext = React.createContext({
 
 });
 
-
-
 export function RootStack() {
     const allCountriesData = 'https://corona.lmao.ninja/countries';
     const [state, next] = useState()

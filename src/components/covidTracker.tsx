@@ -100,7 +100,7 @@ export default class CovidTracker extends React.PureComponent<Props, State> {
       this.setState({
         covidData: res,
         countries: getCountries.sort(),
-      }, () => res.map((item) => {
+      }, () => res?.map((item) => {
         this.setState({ selectedItem: item })
       }));
     }
@@ -110,7 +110,7 @@ export default class CovidTracker extends React.PureComponent<Props, State> {
 
   public render() {
     const { countries, selectedItem } = this.state;
-    const { params } = this.props.navigation?.state;
+    const params = this.props.navigation?.state;
 
     const item = params?.name ?? undefined
     console.log('item ==>', item)

@@ -40,8 +40,8 @@
     "react-native-splash-screen": "^3.2.0",
     "react-native-touch-id": "^4.4.1",
     "react-native-vector-icons": "^6.6.0",
-    "react-navigation": "^4.0.10",
-    "react-navigation-stack": "^2.0.2",
+    "react-navigation": "^4.3.7",
+    "react-navigation-stack": "^2.3.11",
     "react-navigation-tabs": "^2.6.2",
     "tslint-config-prettier": "^1.18.0",
     "tslint-react": "^4.1.0"
