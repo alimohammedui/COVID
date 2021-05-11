@@ -23,7 +23,7 @@
     "@types/react-native-keychain": "^3.1.0",
     "@types/react-native-snap-carousel": "^3.7.4",
     "deepmerge": "^4.2.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "react": "16.9.0",
     "react-native": "0.61.5",
